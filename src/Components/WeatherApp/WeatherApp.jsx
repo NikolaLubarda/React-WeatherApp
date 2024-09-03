@@ -14,6 +14,7 @@ const WeatherApp = ({ props }) => {
   let api_key = "48e87cbd3c9dea3ccac08d63ffd32779";
 
   const [wicon, setWicon] = useState(cloud_icon);
+  const [mobile, setMobile] = useState("");
 
   const search = async () => {
     const element = document.getElementsByClassName("cityInput");
